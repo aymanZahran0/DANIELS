@@ -1,0 +1,573 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* start home section */
+.layer{
+    background-color: rgba(13, 13, 13, 0.7) ;
+    height: 100vh;
+    
+}
+.bgsection{
+    background-image: url(../img/bg.jpg);
+    background-position: center center;
+    background-size: cover ;
+    background-attachment: fixed;
+    height: 100vh ; 
+    
+}
+.fix1{
+    position: fixed;
+    width: 100%;
+    z-index: 9999999;
+    background-color: rgba(255, 252, 252, .9);
+}
+.dd{
+    width:100%;
+    margin: auto;
+ }
+ 
+.dd ul{
+        
+        width: 90%;
+        margin: auto;
+        justify-content: end;
+}
+.dd a{
+        
+        margin-right: 20px;
+        font-size: 20px;
+}
+.logo{
+        margin-left: 40px;
+        font-size:33px ;
+        padding-left: 30px;
+}
+.lin{
+    width: 0px;
+}
+
+a:hover .lin{
+    transition-duration: .5s; 
+    width: 40px;
+    height: 2px;
+    background-color: black;
+
+}
+.content1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+.content2 h2{
+font-size: 80px;
+}
+.content2 p{
+    font-size: 60px;
+    }
+.content2 p::after{
+    content: "";
+    animation: text  5s infinite ;
+}
+
+@keyframes text{
+    0%{content: "|";}
+    
+    2%{content: "la|";}
+   
+    4%{content: "larr|";}
+    
+    6%{content: "larry |";}
+    
+    8%{content: "larry Da|";}
+
+    10%{content: "larry Dani|";}
+
+    12%{content: "larry Daniel|";}
+
+    14%{content: "larry Daniels|";}
+
+    16%{content: "larry Daniels|";}
+
+    18%{content: "larry Daniels|";}
+
+    20%{content: "larry Daniels|";}
+
+    
+    22%{content: "larry Daniel|";}
+    24%{content: "larry Dani|";}
+    26%{content: "larry Da|";}
+    28%{content: "larry |";}
+    30%{content: "larr|";}
+    32%{content: "la|";}
+    34%{content: "|";}
+
+    /*  */
+
+    36%{content: "|";}
+    
+    38%{content: "de|";}
+   
+    40%{content: "deve|";}
+    
+    42%{content: "develo|";}
+    
+    44%{content: "develope|";}
+
+    46%{content: "developer.|";}
+    
+    48%{content: "developer.|";}
+
+    46%{content: "developer.|";}
+
+
+    50%{content: "developer.|";}
+    52%{content: "develop.|";}
+    54%{content: "develo|";}
+    56%{content: "deve|";}
+    58%{content: "dev|";}
+    60%{content: "de|";}
+    62%{content: "d|";}
+    64%{content: "|";}
+
+    /*  */
+
+    66%{content: "de|";}
+    
+    68%{content: "desi|";}
+   
+    70%{content: "design|";}
+    
+    72%{content: "designe|";}
+    
+    74%{content: "designer.|";}
+
+    76%{content: "designer.|";}
+
+    78%{content: "designer.|";}
+
+
+    80%{content: "designer.|";}
+    82%{content: "designe|";}
+    84%{content: "design|";}
+    87%{content: "desi|";}
+    90%{content: "de|";}
+    92%{content: "|";}
+
+}
+
+.ii i{
+    margin: 5px;
+    background-color: rgb(1,12,17);
+    padding: 10px;
+    border-radius: 50%;
+}
+.ii a{
+    color: white;
+}
+/* end home section */
+
+
+ /* start about ________________________________*/
+ .width1{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+ .cont1 img{
+width: 90%;
+
+ }
+ .cont1 img::before{
+    content:" ";
+    width: 100%;
+    height: 30px;
+    background-image: url(../img/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    z-index: 4;
+ }
+
+.progress{
+    margin-bottom: 30px;
+    height: 25px;
+    width: 100%;
+}
+.coloor p{
+    background-color: black;
+    color: white !important;
+}
+.progress-bar{
+    background-color: black;
+}
+.content02{
+    margin: 30px;
+}
+.content11{
+    padding: 20px;
+    line-height: 30px;
+}
+.content11 h2{
+    font-size: 30px;
+    font-weight: 800;
+}
+.content11 p{
+    font-size: 16px;
+    color: rgba(15, 15, 15,.6);
+}
+.font{
+    font-weight: 800;
+}
+
+.butt{
+display: flex;
+}
+.butt .butt1{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+.butt .butt2{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+.butt1:hover{
+    color: black;
+    background-color: white;
+    transition-duration: .5s;
+}
+.butt2:hover{
+    background-color: black;
+    color: white;
+    transition-duration: .5s;
+
+}
+ /* end about ____________________________*/
+
+ 
+ /* start services _____________________ */
+ .services{
+   background-color: rgb(247,247,247);
+ }
+ .width2{
+    width: 80%;
+    margin: auto;
+ }
+.tex{
+    text-align: center;  
+}
+.tex p{
+    padding: 10px;
+}
+.tex h2{
+    margin-top: 10px;
+}
+.pa{
+    padding: 20px;
+    margin-bottom: 40px;
+    background-color: white;
+    box-shadow: 0px 1px 6px rgb(191, 189, 189);
+}
+.pa i{
+   font-size: 30px;
+   border-radius: 50%;
+   width: 70px;
+   height: 70px;
+  background-color: rgb(244,244,244);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+}
+.pa:hover i{
+    color: white;
+    background-color: black;
+    transition-duration:  .5s;
+ 
+}
+
+ /* end services________________________ */
+
+
+/* start work _____________________ */
+.nav-tabs {
+    border-width: 0px;
+}
+.nav-tabs .nav-link{
+    border: none;
+}
+.nav-tabs{
+    --bs-nav-tabs-link-active-bg: #fff;
+}
+.nav{
+    --bs-nav-link-color:black;
+}
+.Portfolio{
+    background-color: transparent;
+}
+.head{
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.head h2{
+    font-family: sans-serif;
+    font-size: 40;
+    font-weight: 800;
+    color: rgb(52,52,52);
+}
+.head h2::after {
+    content:" ";
+    width: 100%;
+    height: 30px;
+    background-image: url(../img/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    z-index: -1;
+    
+    
+}
+.icons{
+    background-color: black;
+    color: white;
+}
+.tab-layer{
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    width: 97%;
+    height: 97%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+}
+.tab-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab-item:hover .tab-layer{
+   opacity: 1;
+   transition-duration: 1s;
+   top: 5px;
+
+}
+.tab-item:hover .r{
+  transform: translateY(5px);
+  transition-duration: 1s;
+}
+.tab-item:hover .ic{
+    transform: translateY(-5px);
+    transition-duration: 1s;
+}
+.ic i{
+    padding: 10px;
+    border-radius: 50%;
+    border: solid 1px black;
+}
+.ic i:hover{
+    background-color: white;
+    color: black;
+}
+/* end work ___________________________ */
+
+
+/* start client _______________ */
+.client .head{
+    padding-top:  48px;
+}
+.client{
+    background-color:rgb(247,247,247) ;
+}
+.cont{
+    color: black;
+}
+.carousel-indicators .active{
+    width: 10px;
+    border-radius: 50%;
+}
+.carousel-indicators button{
+    background-color: blue;
+    background-color: rgb(134,151,145)!important;
+    border-radius: 50%;
+    width: 10px !important;
+    height: 10px !important;
+}
+.coloor1{
+    margin: -10px;
+}
+.coloor1 button{
+    margin-right: 15px !important;
+}
+.cont p{
+    padding: 30px;
+}
+.dis2{
+    width: 65%;
+}
+.dis1{
+    display: flex;
+    justify-content: center;
+}
+
+/*_____________*/
+.bacg{
+    background-color: white;
+}
+.wid{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    height: 70vh;
+    color: black;
+}
+
+
+.wid i{
+    font-size: 30px;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+ }
+ .wid p{
+    font-size: 22px;
+ }
+ .alcen{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ }
+.bold{
+    font-weight: 800;
+}
+.one1 p{
+    color: rgb(116,129,130);
+    font-size: 16px;
+    font-weight: 600;
+}
+/* end client _______________ */
+
+
+/* start blog ____________________ */
+.blog{
+    background-color: rgb(247,247,247);
+}
+.wid2{
+    width: 80%;
+    margin: auto;
+}
+ .con{
+    background-color: white;    
+ }
+ .con1{
+    margin: 25px 0px;
+    padding: 10px;
+ }
+ .con img{
+    width: 100%;
+ }
+ .pa2{
+    padding: 15px;
+    margin-bottom: 30px;
+    cursor: grab;
+}
+.pa2:hover .zoom{
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+.over{
+    overflow: hidden;
+}
+.con1 .bor{
+    border-bottom: 2px solid black;
+    width: 22%;
+}
+ 
+/* end blog ________________________*/
+
+
+/* start contact _________________*/
+.contact .head{
+    margin-top: 50px;
+}
+.w{
+    display: flex;
+    justify-content: center;
+}
+.icoonss{
+    text-align: center;
+    width: 70%;
+    margin: 50px;
+}
+.icoonss i{
+    font-size: 25px;
+   border-radius: 50%;
+   width: 60px;
+   height: 60px;
+  background-color: rgb(244,244,244);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+}
+.ico1:hover .iii i{
+color: white;
+background-color: black;
+transition-duration: .6s;
+}
+
+.ww1{
+    display: flex;
+    justify-content: center;
+}
+
+.ww2{
+    width: 70%;
+}
+.ww11{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.ww22{
+    width: 70%;
+}
+.ww22 input{
+    background-color: black;
+    color: white;
+    width: 120px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.inpu{
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(244,244,244);
+}
+.end{
+    background-color: black;
+    color: rgb(116,129,130);
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+}
